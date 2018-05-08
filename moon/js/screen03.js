@@ -1,0 +1,3 @@
+function Screen03(a){this.resource=a;this.init()}
+Screen03.prototype.init=function(){var a=new createjs.Bitmap(this.resource.treePage);a.x=0;a.y=1810;a.alpha=0;createjs.Tween.get(a).to({alpha:1},500);container03.addChild(a);a=new createjs.Bitmap(this.resource.ground);a.x=0;a.y=1810;a.alpha=.5;createjs.Tween.get(a).to({alpha:1,x:-150},3E3);container03.addChild(a);a=queue.getResult("girl");a=new createjs.SpriteSheet({images:[a],frames:{width:135,height:100,count:48},animations:{stand:[0,18],walk:[23,36]},framerate:8});createjs.Ticker.setFPS(60);girlAnimation=
+new createjs.Sprite(a,"walk");girlAnimation.x=500;girlAnimation.y=2250;container03.addChild(girlAnimation);createjs.Tween.get(girlAnimation).to({x:600},5500).call(function(){girlAnimation.gotoAndPlay("stand")})};
