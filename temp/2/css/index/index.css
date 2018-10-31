@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* 公共样式 */
+/*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+img, embed, object, audio, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+  text-align: left;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+#index {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+#index .cate-nav {
+  padding-top: 0.266667rem;
+  margin: 0 0.4rem;
+}
+#index .cate-nav .cate-nav-tl {
+  width: 2.666667rem;
+  height: 0.533333rem;
+  font-size: 0.346667rem;
+  color: #fff;
+  line-height: 0.533333rem;
+  text-align: center;
+  border-radius: 0.106667rem;
+  background-color: #5dbaa7;
+}
+#index .cate-nav .cate-nav-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0.533333rem 0;
+}
+#index .cate-nav .cate-nav-group > .link {
+  font-size: 0.373333rem !important;
+  color: #333333 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.24rem;
+  color: #333333;
+  font-size: 0.373333rem;
+}
+#index .cate-nav .cate-nav-group > .link .icon {
+  display: block;
+  margin-bottom: 0.213333rem;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(1) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  max-width: 92px;
+  max-height: 92px;
+  background: url(../../icon/index/icon_cate_01.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(2) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  background: url(../../icon/index/icon_cate_02.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(3) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  max-width: 92px;
+  max-height: 92px;
+  background: url(../../icon/index/icon_cate_03.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(4) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  max-width: 92px;
+  max-height: 92px;
+  background: url(../../icon/index/icon_cate_04.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(5) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  max-width: 92px;
+  max-height: 92px;
+  background: url(../../icon/index/icon_cate_05.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(6) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  max-width: 92px;
+  max-height: 92px;
+  background: url(../../icon/index/icon_cate_06.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link:nth-child(7) .icon {
+  width: 1.226667rem;
+  height: 1.226667rem;
+  max-width: 92px;
+  max-height: 92px;
+  background: url(../../icon/index/icon_cate_07.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+#index .cate-nav .cate-nav-group > .link.active {
+  color: #5dbaa7;
+}
+#index .cate-nav .cate-nav-group .cate-nav-seat {
+  visibility: hidden;
+}
+#index .member-statistics {
+  width: 9.0rem;
+  height: 4.8rem;
+  background-color: #fff;
+  border-radius: 0.266667rem;
+  overflow: hidden;
+  padding: 0.133333rem;
+  margin: 0 auto;
+}
+#index .member-statistics .member-statistics-tabbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.4rem;
+  position: relative;
+}
+#index .member-statistics .member-statistics-tabbar span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.373333rem;
+  color: #999999;
+  padding: 0 0.266667rem;
+}
+#index .member-statistics .member-statistics-tabbar span::after {
+  content: '';
+  display: inline-block;
+  width: 0.88rem;
+  height: 0.053333rem;
+  background-color: #fff;
+  margin-top: 0.106667rem;
+}
+#index .member-statistics .member-statistics-tabbar span.active {
+  color: #5dbaa7;
+}
+#index .member-statistics .member-statistics-tabbar span.active::after {
+  background-color: #5dbaa7;
+}
+#index .member-statistics .member-statistics-tabbar .immediately-invite {
+  position: absolute;
+  left: 0;
+  width: 1.853333rem;
+  height: 0.533333rem;
+  line-height: 0.533333rem;
+  text-align: center;
+  font-size: 0.346667rem;
+  color: #fff;
+  background-color: #5dbaa7;
+  border-radius: 0.106667rem;
+}
+#index .member-statistics .member-statistics-tabcon {
+  height: 3.466667rem;
+}
+#index .member-statistics .member-statistics-tabcon .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+#index .member-statistics .member-statistics-tabcon .column {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.373333rem;
+  align-items: center;
+  color: #666666;
+  margin-top: 1.133333rem;
+}
+#index .member-statistics .member-statistics-tabcon .column.member-invited {
+  margin: 0 1.44rem;
+  margin-top: 0.466667rem;
+  color: #333333;
+}
+#index .member-statistics .member-statistics-tabcon .column.member-invited span {
+  color: #5dbaa7;
+}
+#index .member-statistics .member-statistics-tabcon .column span {
+  margin-bottom: 0.266667rem;
+}
+#index .member-statistics .member-statistics-tabcon .swiper-pagination {
+  bottom: 0;
+}
+#index .member-statistics .member-statistics-tabcon .swiper-pagination .swiper-pagination-bullet {
+  width: 0.106667rem;
+  height: 0.106667rem;
+  background-color: #cccccc;
+  opacity: 1;
+}
+#index .member-statistics .member-statistics-tabcon .swiper-pagination .bullet-active {
+  background-color: #666666;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,57 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.306667rem;
+  background-color: #fff;
+}
+.footer .nav-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.footer .nav-group > .link {
+  font-size: 0.373333rem;
+  color: #b2b2b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .nav-group > .link .icon {
+  display: block;
+}
+.footer .nav-group > .link:nth-child(1) .icon {
+  width: 0.586667rem;
+  height: 0.613333rem;
+  background: url(../../icon/icon_index_default.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+.footer .nav-group > .link:nth-child(1).active .icon {
+  background: url(../../icon/icon_index_active.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+.footer .nav-group > .link:nth-child(2) .icon {
+  width: 0.746667rem;
+  height: 0.613333rem;
+  background: url(../../icon/icon_member_default.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+.footer .nav-group > .link:nth-child(3) .icon {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: url(../../icon/icon_news_default.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+.footer .nav-group > .link:nth-child(4) .icon {
+  width: 0.613333rem;
+  height: 0.613333rem;
+  background: url(../../icon/icon_my_default.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+.footer .nav-group > .link.active {
+  color: #5dbaa7;
+}
+
+/*# sourceMappingURL=footer.css.map */
